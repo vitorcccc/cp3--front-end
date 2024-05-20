@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: green;
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+    width: 980px;
+    height: 140px;
+    margin : 15px;
+}
+.sla {
+    display: flex;
+    width: 980px;
+    margin: 15px;
+}
+.sidebar {
+    width: 270px;
+    height: 450px;
+    background-color: gray;
+    padding: 10px;
+    margin : 15px;
+}
+.content {
+    flex: 1;
+    padding: 10px 0;
+    background-color: pink;
+    width: 690px;
+    height: 450px;
+    margin : 15px;
+}
+footer {
+    background-color: green;
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+    width: 980px;
+    height: 70px;
+    margin : 15px;
+}
